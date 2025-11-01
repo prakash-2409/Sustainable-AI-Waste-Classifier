@@ -1,0 +1,4 @@
+Week 1: Topic selection, research, repo setup
+Week 2: Dataset upload, CNN training (Teachable Machine)
+Week 3: Web interface creation + model integration
+Week 4: Deployment, testing, documentation
