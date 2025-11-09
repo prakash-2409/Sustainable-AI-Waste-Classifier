@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script type="module">
+import * as tmImage from "https://teachablemachine.withgoogle.com/tmImage.js";
+let model, webcam;
+
+window.onload = async () => {
+ model = await tmImage.load("./model/model.json", "./model/metadata.json");
+ webcam = new tmImage.Webcam(300, 300, true);
+ await webcam.setup();
+ await webcam.play();
+ document.body.appendChild(webcam.canvas);
+ window.requestAnimationFrame(loop);
+};
+
+async function loop() {
+ webcam.update();
+ const prediction = await model.predict(webcam.canvas);
+ document.getElementById("result").innerText = prediction[0].className;
+ window.requestAnimationFrame(loop);
+}
+</script>
+</head>
+<body>
+<h2>AI Waste Classifier</h2>
+<h3 id="result">Waiting...</h3>
+</body>
+</html>
