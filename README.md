@@ -46,6 +46,16 @@ Version Control | Git & GitHub
 
 ---
 
+### ✅ Week-2 Completed:
+- Downloaded Kaggle Garbage Classification Dataset
+- Uploaded dataset to Teachable Machine
+- Trained CNN classification model
+- Exported TensorFlow model files
+- Added model files to the repository
+- Created simple web interface to test prediction
+
+---
+
 ### 🚀 Roadmap
 
 | Week | Task |
