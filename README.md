@@ -6,7 +6,8 @@ This project aims to build an AI system using **Convolutional Neural Networks (C
 
 ### 🏢 Internship
 **Shell-Edunet Skills4Future Internship (Oct–Nov 2025)**  
-Theme: **Sustainability & AI/ML**
+**Name:  PRAKASH RAJ A**
+**Theme: Sustainability & AI/ML**
 
 ---
 
@@ -53,6 +54,15 @@ Version Control | Git & GitHub
 - Exported TensorFlow model files
 - Added model files to the repository
 - Created simple web interface to test prediction
+
+---
+
+### ✅ Final Submission Summary
+- Model trained on Kaggle Garbage Dataset
+- CNN model implemented via Teachable Machine
+- Real-time web interface integrated
+- PPT & documentation completed
+- Future: IoT Smart Dustbin Integration
 
 ---
 
